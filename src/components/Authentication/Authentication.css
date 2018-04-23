@@ -1,6 +1,7 @@
 .didi-authentication {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .didi-authentication__content {
@@ -14,6 +15,7 @@
   align-items: flex-end;
   justify-content: flex-end;
   flex-direction: column;
+  max-width: 20rem;
 }
 
 .didi-authentication__forms > * + * {
